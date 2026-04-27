@@ -1,0 +1,5 @@
+(defun AreaOfCircle ()
+  (print "Enter radius: ")
+  (let* ((radius (read))
+         (area (* 3.1416 radius radius)))
+    (format t "~%Radius = ~f~%Area = ~f" radius area)))
